@@ -4,7 +4,6 @@
 set runtimepath+=~/.vim_runtime
 
 
-colorscheme darkblue2 
 syntax on
 set modelines=0
 set number
