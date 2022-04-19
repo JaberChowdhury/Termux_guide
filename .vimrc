@@ -16,7 +16,7 @@ set cursorline
 set encoding=utf-8
 set textwidth=79
 set nowrap
-set history=10000
+" set history=10000
 
 function! GitBranch()
   return system("git rev-parse --abbrev-ref HEAD 2>/dev/null | tr -d '\n'")
@@ -52,3 +52,6 @@ try
   source ~/.vim_runtime/my_configs.vim
 catch
 endtry
+
+
+
