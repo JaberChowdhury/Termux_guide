@@ -5,6 +5,10 @@ set runtimepath+=~/.vim_runtime
 
 
 syntax on
+syntax enable
+set spell
+set titlestring=%t
+set linebreak
 set modelines=0
 set number
 set ruler
