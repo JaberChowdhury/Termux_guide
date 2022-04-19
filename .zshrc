@@ -66,13 +66,6 @@ light_white_back=$'\e[107m'
 ! [ -z "$SSH_TTY$SSH_CONNECTION$SSH_CLIENT" ]
 IS_SSH=$?
 
-
-
-# ------------------------------------------------------------------------------
-# Customization
-# I recommend setting these variables in your ~/.zshrc after sourcing this file
-# The style aliases for ANSI SGR codes (defined above) can be used there too
-
 # Options
 HEADLINE_LINE_MODE='auto' # on|auto|off (whether to print the line above the prompt)
 HEADLINE_INFO_MODE='precmd' # precmd|prompt (whether info line is in $PROMPT or printed by precmd)

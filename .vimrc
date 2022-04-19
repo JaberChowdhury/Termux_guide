@@ -8,9 +8,11 @@ syntax on
 set modelines=0
 set number
 set ruler
+set cursorline
 set encoding=utf-8
 set textwidth=79
-set wrap
+set nowrap
+set history=10000
 
 function! GitBranch()
   return system("git rev-parse --abbrev-ref HEAD 2>/dev/null | tr -d '\n'")
@@ -35,7 +37,6 @@ set statusline+=\[%{&fileformat}\]
 set statusline+=\ %p%%
 set statusline+=\ %l:%c
 set statusline+=\
-
 
 
 
