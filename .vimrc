@@ -4,6 +4,8 @@
 set runtimepath+=~/.vim_runtime
 
 
+
+
 syntax on
 syntax enable
 set spell
