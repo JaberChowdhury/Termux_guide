@@ -51,7 +51,7 @@ set undodir=~/.vim/backup
 set undofile
 set undoreload=10000
 set background=dark
-" colorscheme molokai
+colorscheme molokai
 set guifont=Monospace\ Regular\ 12
 set guioptions-=T
 set guioptions-=L
